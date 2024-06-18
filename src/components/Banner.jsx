@@ -1,16 +1,14 @@
 import "./Banner.css";
 
-export default function Banner() {
+export default function Banner(prop) {
   return (
     <>
       <div className="container">
         <div className="scroll">
           <div className="RightToLeft">
-            <p>Lorem ipsum dolor sit amet consectetur</p>
-            <p>Lorem ipsum dolor sit amet consectetur</p>
-            <p>Lorem ipsum dolor sit amet consectetur</p>
-            <p>Lorem ipsum dolor sit amet consectetur</p>
-            <p>Lorem ipsum dolor sit amet consectetur</p>
+            {Array.apply(0, Array(20)).map(function (x, i) {
+              return <p key={i}>{prop.text}</p>;
+            })}
           </div>
         </div>
       </div>
