@@ -1,6 +1,6 @@
 .container {
   display: flex;
-  height: 6vh;
+  height: 4vh;
   overflow: hidden;
   background-color: var(--color1);
 }
@@ -15,11 +15,12 @@
 }
 
 .scroll p {
-  font-size: 3vh;
+  text-justify: baseline;
+  font-size: 0.8em;
   color: var(--color2);
   font-weight: bold;
   margin-bottom: 0;
-  line-height: 0px;
+  line-height: 4vh;
 }
 
 .RightToLeft {

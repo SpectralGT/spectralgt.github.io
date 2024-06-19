@@ -3,6 +3,11 @@
   --color2: #ebff3a;
 }
 
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
   margin: 0;
   background-color: var(--color2);

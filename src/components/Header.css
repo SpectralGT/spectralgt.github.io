@@ -1,0 +1,22 @@
+.header {
+  width: 100vw;
+  height: 8vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.header > * {
+  flex-grow: 1;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  line-height: 8vh;
+  border-width: 0px 2px 2px 0px;
+  border-style: solid;
+  border-color: var(--color1);
+}
+
+.header > *:last-child {
+  border-width: 0px 0px 2px 0px;
+}
