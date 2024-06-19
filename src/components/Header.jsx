@@ -7,6 +7,7 @@ export default function Header() {
       <p>My Work</p>
       <p>Skills</p>
       <p>Blog</p>
+      <p>Contact Me</p>
     </div>
   );
 }
