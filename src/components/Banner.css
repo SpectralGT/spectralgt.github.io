@@ -1,8 +1,9 @@
 .container {
   display: flex;
-  height: 4vh;
+  height: 2em;
   overflow: hidden;
   background-color: var(--color1);
+  align-items: center;
 }
 
 .scroll {
@@ -20,7 +21,7 @@
   color: var(--color2);
   font-weight: bold;
   margin-bottom: 0;
-  line-height: 4vh;
+  /* line-height: 2.5em; */
 }
 
 .RightToLeft {

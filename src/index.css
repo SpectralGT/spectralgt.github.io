@@ -1,15 +1,21 @@
 :root {
   --color1: #101820;
-  --color2: #f2aa4c;
+  --color2: #99f24c;
 }
 
 * {
+  box-sizing: border-box;
   margin: 0px;
   padding: 0px;
 }
 
+html {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
 body {
-  margin: 0;
+  width: 100vw;
   background-color: var(--color2);
   font-family: "Arial", sans-serif;
 }
