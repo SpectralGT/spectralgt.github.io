@@ -1,25 +1,30 @@
 .header {
+  top: 0px;
+  position: sticky;
   width: 100vw;
-  height: 5vw;
+  height: min(8vw, 60px);
   min-height: 16px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: var(--color2);
   align-items: center;
 }
 
 .header > * {
+  height: 100%;
   flex-grow: 1;
   text-align: center;
+  line-height: min(8vw, 60px);
   font-weight: bold;
-  font-size: clamp(10px,4vw,30px);
+  font-size: clamp(10px, 3vw, 30px);
   color: var(--color1);
-  line-height: 5vw;
-  border-width: 0px 3px 3px 0px;
+  border-width: 0px 2px 2px 0px;
   border-style: solid;
   border-color: var(--color1);
 }
 
 .header > *:last-child {
-  border-width: 0px 0px 3px 0px;
+  border-width: 0px 0px 2px 0px;
 }
