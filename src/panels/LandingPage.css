@@ -2,7 +2,7 @@
   font-weight: 1000;
   font-size: 15vw;
   color: var(--color1);
-  padding: 1rem;
+  padding: 3vw;
   box-sizing: border-box;
   line-height: 1em;
   font-size: clamp(1px, 16vw, 100px);

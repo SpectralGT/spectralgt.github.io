@@ -1,6 +1,6 @@
 .stickyContainer {
   position: sticky;
-  top: min(8vw, 60px);
+  top: clamp(40px, 8vw, 58px);
   display: flex;
   height: 4em;
   overflow: hidden;
