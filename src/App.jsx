@@ -11,9 +11,9 @@ function App() {
     <>
       <Banner text="#Opent to Work"></Banner>
       <Header></Header>
-      <LandingPage></LandingPage>
-      <AboutMeAndSkills></AboutMeAndSkills>
-      <Projects></Projects>
+      <LandingPage id="home"></LandingPage>
+      <AboutMeAndSkills id="aboveMe"></AboutMeAndSkills>
+      <Projects id="projects"></Projects>
       <ContactMe></ContactMe>
     </>
   );

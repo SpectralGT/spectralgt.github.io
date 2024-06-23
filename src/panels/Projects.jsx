@@ -5,7 +5,7 @@ export default function Projects() {
   return (
     <>
       <StickyBanner text="PROJECTS"></StickyBanner>
-      <div className="projects"></div>
+      <div className="projects" id="projects"></div>
     </>
   );
 }

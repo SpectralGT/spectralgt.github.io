@@ -30,4 +30,9 @@
   font-weight: 700;
   border-radius: 10px;
   padding: 0.5em 1em;
+  transition: all 0.2s;
+}
+
+.skills .container p:hover {
+  transform: scale(1.1);
 }

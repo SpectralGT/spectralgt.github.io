@@ -7,7 +7,7 @@ export default function AboutMeAndSkills() {
   return (
     <>
       <StickyBanner text="About Me • Skills"></StickyBanner>
-      <div className="aboutMeAndSkills">
+      <div className="aboutMeAndSkills" id="skills">
         <AboutMe></AboutMe>
         <MySkills></MySkills>
       </div>

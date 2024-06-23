@@ -5,7 +5,7 @@ export default function ContactMe() {
   return (
     <>
       <StickyBanner text="Contact Me"></StickyBanner>
-      <div className="contact">
+      <div className="contact" id="contact">
         <div className="links">
           <p>
             <i className="fa-solid fa-envelope"></i> atharvsingh1396@gmail.com

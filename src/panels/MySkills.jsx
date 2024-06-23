@@ -1,7 +1,7 @@
 import "./MySkills.css";
 export default function MySkills() {
   return (
-    <div className="skills">
+    <div className="skills" id="skills">
       <p className="heading">MY SKILLS</p>
       <div className="container">
         <p>
