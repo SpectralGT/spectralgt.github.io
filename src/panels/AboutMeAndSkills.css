@@ -1,0 +1,15 @@
+.aboutMeAndSkills {
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutMeAndSkills > * {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .aboutMeAndSkills {
+    flex-direction: row;
+  }
+}

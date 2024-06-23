@@ -1,0 +1,33 @@
+.skills {
+  /* min-height: 100vh; */
+}
+
+.skills .heading {
+  margin-top: 1em;
+  width: 100%;
+  text-align: center;
+  font-size: 3em;
+  color: var(--color2);
+  -webkit-text-stroke: 1px var(--color1);
+  font-weight: 800;
+}
+
+.skills .container {
+  padding: 2em;
+  height: fit-content;
+  background-color: var(--color2);
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.skills .container p {
+  color: var(--color2);
+  background-color: var(--color1);
+  font-size: 1.5em;
+  font-weight: 700;
+  border-radius: 10px;
+  padding: 0.5em 1em;
+}

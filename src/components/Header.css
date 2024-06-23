@@ -23,8 +23,14 @@
   border-width: 0px 2px 2px 0px;
   border-style: solid;
   border-color: var(--color1);
+  transition: all 0.3s;
 }
 
 .header > *:last-child {
   border-width: 0px 0px 2px 0px;
+}
+
+.header > *:hover {
+  background-color: var(--color1);
+  color: var(--color2);
 }

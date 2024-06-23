@@ -2,7 +2,7 @@
   position: sticky;
   top: min(8vw, 60px);
   display: flex;
-  height: 2em;
+  height: 4em;
   overflow: hidden;
   background-color: var(--color1);
   align-items: center;
@@ -17,9 +17,9 @@
   gap: 3em;
 }
 
-.scroll p {
+.stickyContainer > .scroll p {
   text-justify: baseline;
-  font-size: 0.8em;
+  font-size: 2em;
   color: var(--color2);
   font-weight: bold;
   margin-bottom: 0;

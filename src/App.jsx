@@ -1,8 +1,10 @@
 import "./App.css";
 import Banner from "./components/Banner.jsx";
 import Header from "./components/Header.jsx";
-import AboutMe from "./panels/AboutMe.jsx";
 import LandingPage from "./panels/LandingPage.jsx";
+import AboutMeAndSkills from "./panels/AboutMeAndSkills.jsx";
+import Projects from "./panels/Projects.jsx";
+import ContactMe from "./panels/ContactMe.jsx";
 
 function App() {
   return (
@@ -10,10 +12,9 @@ function App() {
       <Banner text="#Opent to Work"></Banner>
       <Header></Header>
       <LandingPage></LandingPage>
-      <AboutMe></AboutMe>
-      <AboutMe></AboutMe>
-      <AboutMe></AboutMe>
-      <AboutMe></AboutMe>
+      <AboutMeAndSkills></AboutMeAndSkills>
+      <Projects></Projects>
+      <ContactMe></ContactMe>
     </>
   );
 }

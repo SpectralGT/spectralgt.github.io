@@ -7,6 +7,7 @@
   line-height: 1em;
   font-size: clamp(1px, 16vw, 100px);
   font-family: "Archivo Black", sans-serif;
+  min-height: 90vh;
 }
 
 .description {
@@ -21,7 +22,7 @@
   -webkit-text-stroke: 1px var(--color1);
 }
 
-em{
+em {
   color: var(--color1);
   -webkit-text-stroke: 0px;
 }
