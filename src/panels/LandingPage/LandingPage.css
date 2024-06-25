@@ -2,12 +2,22 @@
   font-weight: 1000;
   font-size: 15vw;
   color: var(--color1);
-  padding: 3vw;
+  padding:3vw;
   box-sizing: border-box;
   line-height: 1em;
   font-size: clamp(1px, 16vw, 100px);
   font-family: "Archivo Black", sans-serif;
   min-height: 90vh;
+}
+
+video {
+  position: absolute;
+  top: calc(clamp(40px, 8vw, 60px) + 2rem);
+  left: 0;
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  z-index: -100;
 }
 
 .description {
@@ -18,7 +28,7 @@
   font-family: "Poppins", sans-serif;
 
   font-weight: 500;
-  color: var(--color2);
+  color: transparent;
   -webkit-text-stroke: 1px var(--color1);
 }
 

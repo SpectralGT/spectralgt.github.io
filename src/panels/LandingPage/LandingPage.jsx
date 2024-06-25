@@ -3,6 +3,7 @@ import "./LandingPage.css";
 export default function LandingPage() {
   return (
     <div id="landingPage">
+      <video src="/bg.mp4" autoPlay muted loop></video>
       <p>Hi, I'M</p>
       <p>ATHARV </p>
       <p>SINGH</p>
