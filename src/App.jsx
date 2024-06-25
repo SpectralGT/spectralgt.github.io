@@ -1,10 +1,10 @@
 import "./App.css";
 import Banner from "./components/Banner.jsx";
 import Header from "./components/Header.jsx";
-import LandingPage from "./panels/LandingPage.jsx";
-import AboutMeAndSkills from "./panels/AboutMeAndSkills.jsx";
-import Projects from "./panels/Projects.jsx";
-import ContactMe from "./panels/ContactMe.jsx";
+import LandingPage from "./panels/LandingPage/LandingPage.jsx";
+import AboutMeAndSkills from "./panels/AboutMeAndSkills/AboutMeAndSkills.jsx";
+import Projects from "./panels/Projects/Projects.jsx";
+import ContactMe from "./panels/ContactMe/ContactMe.jsx";
 
 function App() {
   return (

@@ -1,4 +1,4 @@
-import StickyBanner from "../components/StickyBanner";
+import StickyBanner from "../../components/StickyBanner";
 import "./Projects.css";
 
 export default function Projects() {
