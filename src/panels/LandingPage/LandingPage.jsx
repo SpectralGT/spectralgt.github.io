@@ -1,38 +1,32 @@
 import "./LandingPage.css";
-import video from "/bg.mp4";
-
-import { useRef, useEffect } from "react";
+// import { useEffect, useRef } from "react";
 
 export default function LandingPage() {
-  const videoRef = useRef(undefined);
-  useEffect(() => {
-    videoRef.current.defaultMuted = true;
-  });
+  // const videoRef = useRef(null);
+  // useEffect(() => {
+  //   videoRef.current.defaultMuted = true;
+  // });
 
   return (
     <div id="landingPage">
-      <p>
-        <video
-          ref={videoRef}
-          id="video"
-          preload="auto"
-          autoPlay="autoplay"
-          loop
-          muted
-          playsInline={true}
-          type="video/mp4"
-          src={video}
-        ></video>
+      {/* <div
+        dangerouslySetInnerHTML={{
+          __html: (function () {
+            let videoContainer = document.createElement("video");
+            let source = document.createElement("source");
+            videoContainer.setAttribute("autoplay", "");
+            videoContainer.setAttribute("muted", "");
+            videoContainer.setAttribute("loop", "");
+            source.src = "/bg.mp4";
+            videoContainer.appendChild(source);
+            return videoContainer.outerHTML;
+          })(),
+        }}
+      /> */}
 
-        {/* <div
-          dangerouslySetInnerHTML={{
-            __html: `<video className="app__backgroundVideo" autoplay loop muted playsinline>
-      <source src=${video} type="video/mp4" />
-      Your browser does not support the video tag.
-</video>`,
-          }}
-        /> */}
-      </p>
+      {/* <video ref={videoRef} muted autoPlay loop src="/bg.mp4" playsInline></video> */}
+
+      <video autoPlay loop muted playsInline id="video" src="/bg.mp4" />
       <p>Hi, I'M</p>
       <p>ATHARV </p>
       <p>SINGH</p>
