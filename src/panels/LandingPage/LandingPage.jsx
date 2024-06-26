@@ -1,9 +1,38 @@
 import "./LandingPage.css";
+import video from "/bg.mp4";
+
+import { useRef, useEffect } from "react";
 
 export default function LandingPage() {
+  const videoRef = useRef(undefined);
+  useEffect(() => {
+    videoRef.current.defaultMuted = true;
+  });
+
   return (
     <div id="landingPage">
-      <video src="/bg.mp4" autoPlay muted loop></video>
+      <p>
+        <video
+          ref={videoRef}
+          id="video"
+          preload="auto"
+          autoPlay="autoplay"
+          loop
+          muted
+          playsInline={true}
+          type="video/mp4"
+          src={video}
+        ></video>
+
+        {/* <div
+          dangerouslySetInnerHTML={{
+            __html: `<video className="app__backgroundVideo" autoplay loop muted playsinline>
+      <source src=${video} type="video/mp4" />
+      Your browser does not support the video tag.
+</video>`,
+          }}
+        /> */}
+      </p>
       <p>Hi, I'M</p>
       <p>ATHARV </p>
       <p>SINGH</p>

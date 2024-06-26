@@ -1,8 +1,8 @@
 #landingPage {
   font-weight: 1000;
   font-size: 15vw;
-  color: var(--color1);
-  padding:3vw;
+  color: var(--color2);
+  padding: 3vw;
   box-sizing: border-box;
   line-height: 1em;
   font-size: clamp(1px, 16vw, 100px);
@@ -12,7 +12,9 @@
 
 video {
   position: absolute;
-  top: calc(clamp(40px, 8vw, 60px) + 2rem);
+  background-color: var(--color1);
+  /* top: calc(clamp(40px, 8vw, 60px) + 2rem); */
+  top: 2rem;
   left: 0;
   object-fit: cover;
   width: 100vw;
@@ -29,10 +31,10 @@ video {
 
   font-weight: 500;
   color: transparent;
-  -webkit-text-stroke: 1px var(--color1);
+  -webkit-text-stroke: 1px var(--color2);
 }
 
 em {
-  color: var(--color1);
+  color: var(--color2);
   -webkit-text-stroke: 0px;
 }
