@@ -1,6 +1,7 @@
 .container {
   display: flex;
   height: 2em;
+  width: 100%;
   overflow: hidden;
   background-color: var(--color1);
   align-items: center;

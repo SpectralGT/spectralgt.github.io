@@ -16,16 +16,19 @@
 }
 
 html {
-  width: 100vw;
-  overflow-x: hidden;
+  max-width: 100vw;
+  /* overflow-x: hidden; */
+}
+
+#root {
+  max-width: 100vw;
 }
 
 body {
-  width: 100vw;
+  max-width: 100vw;
   background-color: var(--color2);
-  /* font-family: "Archivo Black", sans-serif; */
-
   font-family: "Poppins", sans-serif;
+  scroll-snap-type: y mandatory;
 }
 
 a {

@@ -1,7 +1,7 @@
 .header {
   top: 0px;
   position: sticky;
-  width: 100vw;
+  width: 100%;
   height: clamp(40px, 8vw, 60px);
   display: flex;
   flex-direction: row;

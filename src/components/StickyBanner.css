@@ -3,6 +3,7 @@
   top: clamp(40px, 8vw, 58px);
   display: flex;
   height: 4em;
+  width: 100%;
   overflow: hidden;
   background-color: var(--color1);
   align-items: center;

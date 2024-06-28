@@ -1,6 +1,6 @@
 .contact {
   min-height: 90vh;
-  width: 100vw;
+  width: 100%;
   background-color: var(--color1);
   color: var(--color2);
   display: flex;
