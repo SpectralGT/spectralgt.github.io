@@ -2,32 +2,9 @@ import { useState } from "react";
 import StickyBanner from "../../components/StickyBanner";
 import "./Projects.css";
 
-const projects = [
-  {
-    title: "Portfolio",
-    tag1: "HTML1",
-    tag2: "CSS1",
-    tag3: "JS1",
-    image: "/img1.jpg",
-    description: "description1",
-  },
-  {
-    title: "title 2",
-    tag1: "HTML2",
-    tag2: "CSS2",
-    tag3: "JS2",
-    image: "/img2.jpg",
-    description: "description1",
-  },
-  {
-    title: "title 3",
-    tag1: "HTML3",
-    tag2: "CSS3",
-    tag3: "JS3",
-    image: "/img3.jpg",
-    description: "description1",
-  },
-];
+import * as data from "./projects.json";
+const { projects } = data;
+
 export default function Projects() {
   const [index, changeState] = useState(0);
 
@@ -56,13 +33,14 @@ export default function Projects() {
         </button>
         <p id="title">{projects[index].title}</p>
 
-        <div id="description">
-          <p>{projects[index].tag1}</p>
-          <p>{projects[index].tag2}</p>
-          <p>{projects[index].tag3}</p>
-        </div>
         <div id="image">
           <img src={projects[index].image}></img>
+        </div>
+        <div id="description">
+          <p className="tag">{projects[index].tag1}</p>
+          <p className="tag">{projects[index].tag2}</p>
+          <p className="tag">{projects[index].tag3}</p>
+          <p className="desc_text">{projects[index].description}</p>
         </div>
       </div>
     </>

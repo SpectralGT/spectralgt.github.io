@@ -28,7 +28,7 @@
 }
 
 .RightToLeft {
-  animation: RightToLeft 20s infinite linear;
+  animation: RightToLeft 50s infinite linear;
 }
 
 @keyframes RightToLeft {
