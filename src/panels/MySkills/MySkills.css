@@ -1,5 +1,6 @@
 .skills {
   /* min-height: 100vh; */
+  scroll-snap-align: start;
 }
 
 .skills .heading {
@@ -10,6 +11,7 @@
   color: var(--color2);
   -webkit-text-stroke: 1px var(--color1);
   font-weight: 800;
+  scroll-snap-align: start;
 }
 
 .skills .container {

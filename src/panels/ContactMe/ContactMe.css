@@ -13,6 +13,7 @@
   padding: 1em;
   padding-top: 5em;
   text-wrap: nowrap;
+  scroll-snap-align: end;
 }
 
 .contact a {

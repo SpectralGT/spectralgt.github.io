@@ -7,10 +7,11 @@
   font-size: clamp(1px, 14vw, 80px);
   font-family: "Archivo Black", sans-serif;
   min-height: 89vh;
+
 }
 #landingPage #video {
   position: absolute;
-  background-color: red;
+  background-color: var(--color1);
   /* top: calc(clamp(40px, 8vw, 60px) + 2rem); */
   top: 2rem;
   left: 0;

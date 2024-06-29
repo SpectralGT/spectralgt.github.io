@@ -5,6 +5,7 @@
   overflow: hidden;
   background-color: var(--color1);
   align-items: center;
+  scroll-snap-align: start;
 }
 
 .scroll {
