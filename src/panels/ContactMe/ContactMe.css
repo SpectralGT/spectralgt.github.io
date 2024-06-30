@@ -33,6 +33,12 @@
   font-weight: 900;
   color: var(--color2);
   background-color: var(--color1);
+  transition: 0.5s ease-out;
+}
+
+.contact .heading:hover {
+  color: #fff;
+  text-shadow: 0 0 10px var(--color2), 0 0 20px var(--color2), 0 0 40px var(--color2);
 }
 
 .links2 {
