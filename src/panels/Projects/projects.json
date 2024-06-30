@@ -1,25 +1,48 @@
 {"projects" : [
     {
-      "title": "title 1",
-      "tag1": "HTML1",
-      "tag2": "CSS1",
-      "tag3": "JS1",
+      "title": "  SILENT ABYSS",
+      "tag1": "Game",
+      "tag2": "Unity",
+      "tag3": "3D",
       "image": "/projects_img/img1.jpg",
-      "description": "description1"
+      "description": "Silent Abyss is a first person horror game I made using Unity3d for mobile. Now Available on PlayStore"
     },
     {
-        "title": "title 2",
-        "tag1": "HTML2",
-        "tag2": "CSS2",
-        "tag3": "JS2",
+        "title": "PORTFOLIO WEBSITE",
+        "tag1": "HTML",
+        "tag2": "CSS",
+        "tag3": "ReactJS",
         "image": "/projects_img/img2.jpg",
-        "description": "description2"
+        "description": "I redesigned my portfolio website which you are seeing right now."
       },{
-        "title": "title 3",
-        "tag1": "HTML3",
-        "tag2": "CSS3",
-        "tag3": "JS3",
+        "title": "BLOG",
+        "tag1": "React",
+        "tag2": "NextJS",
+        "tag3": "AnimeJS",
         "image": "/projects_img/img3.jpg",
-        "description": "description3"
-      }
+        "description": "This is my blog which I made using ReactJS, NextJS and AnimeJS. It is currently hosted on Vercel."
+      },
+      {
+        "title": "FarSkies",
+        "tag1": "Game",
+        "tag2": "Unity",
+        "tag3": "3D",
+        "image": "/projects_img/img4.jpg",
+        "description": "Silent Abyss is a first person game I made using Unity3d for mobile. Its is Available on PlayStore"
+      },
+      {
+          "title": "FLUID SIMULATION",
+          "tag1": "WebGL",
+          "tag2": "TypeScript",
+          "tag3": "CapacitorJS",
+          "image": "/projects_img/img5.png",
+          "description": "This is a fluid simulation I made using WebGL. I made it a mobile app using CapacitorJS"
+        },{
+          "title": "BLOG",
+          "tag1": "React",
+          "tag2": "NextJS",
+          "tag3": "AnimeJS",
+          "image": "/projects_img/img3.jpg",
+          "description": "This is my blog which I made using ReactJS, NextJS and AnimeJS. It is currently hosted on Vercel."
+        }
   ]}

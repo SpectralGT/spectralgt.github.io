@@ -3,9 +3,15 @@ export default function LandingPage() {
   return (
     <div id="landingPage">
       <video autoPlay loop muted playsInline id="video" src="/bg.mp4" />
-      <p>Hi, I'M</p>
-      <p>ATHARV </p>
-      <p>SINGH</p>
+      <p>
+        <span className="title">Hi, I'M</span>
+      </p>
+      <p>
+        <span className="title">ATHARV </span>
+      </p>
+      <p>
+        <span className="title">SINGH</span>
+      </p>
 
       <p className="description">
         I am a{" "}
