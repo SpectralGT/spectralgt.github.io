@@ -12,7 +12,7 @@ export default function Header() {
       <a href="#skills">
         <p>Skills</p>
       </a>
-      <a href="https://atharvsingh.vercel.app/" target="_blank" rel="noopener noreferrer" >
+      <a href="https://blog.atharvsingh.co.in" target="_blank" rel="noopener noreferrer" >
         <p>Blog</p>
       </a>
       <a href="#contact">
