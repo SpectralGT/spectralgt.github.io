@@ -34,7 +34,7 @@ export default function Projects() {
         <p id="title">{projects[index].title}</p>
 
         <div id="image">
-          <img src={projects[index].image}></img>
+          <img src={projects[index].image} alt={projects[index].title}></img>
         </div>
         <div id="description">
           <p className="tag">{projects[index].tag1}</p>
