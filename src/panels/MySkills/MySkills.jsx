@@ -3,7 +3,7 @@ export default function MySkills() {
   //prettier-ignore
   return (
     <div className="skills" id="skills">
-      <p className="heading">MY SKILLS</p>
+      <p className="heading">TECH I HAVE USED</p>
       <div className="container">
         <p><i className="fa-brands fa-html5"></i> HTML</p>
         <p><i className="fa-brands fa-css3-alt"></i> CSS</p>
