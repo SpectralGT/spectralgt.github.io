@@ -18,8 +18,8 @@ export default function Header() {
       <a href="https://drive.google.com/file/d/1QP-ROoDSfAa4sy61mlBS6y2Y0fjYCOFv/view?usp=sharing" target="_blank" rel="noopener noreferrer">
         <p>Resume</p>
       </a>
-      <a href="#contact">
-        <p>Contact Me</p>
+      <a href="https://linktr.ee/atharvsingh1396" target="_blank" rel="noopener noreferrer">
+        <p>Research</p>
       </a>
     </div>
   );

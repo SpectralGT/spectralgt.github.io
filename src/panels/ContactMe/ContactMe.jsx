@@ -49,7 +49,7 @@ export default function ContactMe() {
               Itch.io &nbsp; <i className="fa-brands fa-itch-io"></i>
             </p>
           </a>
-          <a href="https://atharvsingh.vercel.app/" target="_blank" rel="noopener noreferrer">
+          <a href="https://blog.atharvsingh.co.in" target="_blank" rel="noopener noreferrer">
             <p>
               Blog &nbsp; <i className="fa-solid fa-pen"></i>
             </p>
