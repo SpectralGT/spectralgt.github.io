@@ -8,19 +8,19 @@
       "description": "Silent Abyss is a first person horror game I made using Unity3d for mobile. Now Available on PlayStore"
     },
     {
-        "title": "PORTFOLIO WEBSITE",
-        "tag1": "HTML",
-        "tag2": "CSS",
-        "tag3": "ReactJS",
-        "image": "/projects_img/img2.jpg",
-        "description": "I redesigned my portfolio website which you are seeing right now."
+        "title": "ProjectK",
+        "tag1": "ReactJS",
+        "tag2": "CapacitorJS",
+        "tag3": "TensorFlowJS",
+        "image": "/projects_img/img2.png",
+        "description": "ProjectK is an app I create during a Hackathon that uses AI to detect Pulmonary Diseases"
       },{
-        "title": "BLOG",
-        "tag1": "React",
-        "tag2": "NextJS",
-        "tag3": "AnimeJS",
-        "image": "/projects_img/img3.jpg",
-        "description": "This is my blog which I made using ReactJS, NextJS and AnimeJS. It is currently hosted on Vercel."
+        "title": "RiceCure",
+        "tag1": "ReactJS",
+        "tag2": "CapacitorJS",
+        "tag3": "TensorFlowJS",
+        "image": "/projects_img/img3.png",
+        "description": "RiceCure is an app I create during a Hackathon that uses AI to detect Rice Leaf Diseases"
       },
       {
         "title": "FarSkies",
@@ -42,7 +42,7 @@
           "tag1": "React",
           "tag2": "NextJS",
           "tag3": "AnimeJS",
-          "image": "/projects_img/img3.jpg",
+          "image": "/projects_img/img6.png",
           "description": "This is my blog which I made using ReactJS, NextJS and AnimeJS. It is currently hosted on Vercel."
         }
   ]}
