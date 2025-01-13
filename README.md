@@ -1,18 +1,18 @@
-# Personal Portfolio
+# 🌐 Personal Portfolio
 
 This repository contains the source code for my personal portfolio website, developed using ReactJS and hosted on GitHub Pages.
 
-## Website
+## 🚀 Website
 
 You can visit the live website at [atharvsingh.co.in](https://atharvsingh.co.in).
 
-## Features
+## ✨ Features
 
 - **ReactJS**: Utilizes ReactJS for building a dynamic and responsive user interface.
 - **Responsive Design**: Ensures compatibility across various devices and screen sizes.
 - **GitHub Pages Deployment**: Hosted directly from this GitHub repository for seamless updates.
 
-## Installation
+## 🛠️ Installation
 
 To run the project locally, follow these steps:
 
@@ -42,7 +42,7 @@ To run the project locally, follow these steps:
 
    The website should now be accessible at `http://localhost:5173`.
 
-## Deployment
+## 🚢 Deployment
 
 The site is deployed using GitHub Pages. To deploy any changes, ensure that the `gh-pages` branch is up to date with the latest build. You can use the following commands:
 
@@ -60,10 +60,10 @@ The site is deployed using GitHub Pages. To deploy any changes, ensure that the 
 
 This will build the project and push the `build` directory to the `gh-pages` branch, updating the live site.
 
-## Contributing
+## 🤝 Contributing
 
 Contributions are welcome! If you have suggestions or improvements, please open an issue or submit a pull request.
 
-## License
+## 📜 License
 
 This project is licensed under the MIT License.
