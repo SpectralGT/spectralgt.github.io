@@ -15,7 +15,7 @@ export default function Header() {
       <a href="https://blog.atharvsingh.co.in" target="_blank" rel="noopener noreferrer">
         <p>Blog</p>
       </a>
-      <a href="https://drive.google.com/file/d/1QP-ROoDSfAa4sy61mlBS6y2Y0fjYCOFv/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+      <a href="https://drive.google.com/file/d/1-GjRemJ3wSQd7I9gw0q0pvKwFeEmtr0S/view?usp=sharing" target="_blank" rel="noopener noreferrer">
         <p>Resume</p>
       </a>
       <a href="https://linktr.ee/atharvsingh1396" target="_blank" rel="noopener noreferrer">
