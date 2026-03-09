@@ -22,7 +22,7 @@ export default function LandingPage() {
         <strong>
           <em>Game Developer</em>
         </strong>{" "}
-        currently studying in class 12 !
+        currently studying in University of Cincinnati !
       </p>
     </div>
   );
